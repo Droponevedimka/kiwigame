@@ -1,0 +1,208 @@
+{
+	"textures": [
+		{
+			"image": "walking-ded-street.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 996,
+				"h": 976
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "w8",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 328,
+						"h": 548
+					},
+					"spriteSourceSize": {
+						"x": 48,
+						"y": 28,
+						"w": 212,
+						"h": 484
+					},
+					"frame": {
+						"x": 2,
+						"y": 2,
+						"w": 212,
+						"h": 484
+					}
+				},
+				{
+					"filename": "w4",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 328,
+						"h": 548
+					},
+					"spriteSourceSize": {
+						"x": 48,
+						"y": 28,
+						"w": 204,
+						"h": 484
+					},
+					"frame": {
+						"x": 2,
+						"y": 490,
+						"w": 204,
+						"h": 484
+					}
+				},
+				{
+					"filename": "w5",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 328,
+						"h": 548
+					},
+					"spriteSourceSize": {
+						"x": 60,
+						"y": 32,
+						"w": 176,
+						"h": 484
+					},
+					"frame": {
+						"x": 210,
+						"y": 490,
+						"w": 176,
+						"h": 484
+					}
+				},
+				{
+					"filename": "w1",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 328,
+						"h": 548
+					},
+					"spriteSourceSize": {
+						"x": 28,
+						"y": 32,
+						"w": 248,
+						"h": 480
+					},
+					"frame": {
+						"x": 218,
+						"y": 2,
+						"w": 248,
+						"h": 480
+					}
+				},
+				{
+					"filename": "s",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 328,
+						"h": 548
+					},
+					"spriteSourceSize": {
+						"x": 44,
+						"y": 32,
+						"w": 232,
+						"h": 480
+					},
+					"frame": {
+						"x": 390,
+						"y": 486,
+						"w": 232,
+						"h": 480
+					}
+				},
+				{
+					"filename": "w3",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 328,
+						"h": 548
+					},
+					"spriteSourceSize": {
+						"x": 44,
+						"y": 32,
+						"w": 232,
+						"h": 480
+					},
+					"frame": {
+						"x": 470,
+						"y": 2,
+						"w": 232,
+						"h": 480
+					}
+				},
+				{
+					"filename": "w7",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 328,
+						"h": 548
+					},
+					"spriteSourceSize": {
+						"x": 60,
+						"y": 32,
+						"w": 188,
+						"h": 480
+					},
+					"frame": {
+						"x": 626,
+						"y": 486,
+						"w": 188,
+						"h": 480
+					}
+				},
+				{
+					"filename": "w2",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 328,
+						"h": 548
+					},
+					"spriteSourceSize": {
+						"x": 36,
+						"y": 36,
+						"w": 256,
+						"h": 476
+					},
+					"frame": {
+						"x": 706,
+						"y": 2,
+						"w": 256,
+						"h": 476
+					}
+				},
+				{
+					"filename": "w6",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 328,
+						"h": 548
+					},
+					"spriteSourceSize": {
+						"x": 60,
+						"y": 36,
+						"w": 176,
+						"h": 476
+					},
+					"frame": {
+						"x": 818,
+						"y": 482,
+						"w": 176,
+						"h": 476
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "http://free-tex-packer.com",
+		"version": "0.6.2"
+	}
+}

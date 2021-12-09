@@ -1,0 +1,292 @@
+{
+	"textures": [
+		{
+			"image": "static-object.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 1035,
+				"h": 724
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "big-lampa",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 294,
+						"h": 436
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 18,
+						"w": 292,
+						"h": 418
+					},
+					"frame": {
+						"x": 3,
+						"y": 3,
+						"w": 292,
+						"h": 418
+					}
+				},
+				{
+					"filename": "stoika",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 718,
+						"h": 294
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 718,
+						"h": 294
+					},
+					"frame": {
+						"x": 3,
+						"y": 427,
+						"w": 718,
+						"h": 294
+					}
+				},
+				{
+					"filename": "dver",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 217,
+						"h": 266
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 217,
+						"h": 266
+					},
+					"frame": {
+						"x": 301,
+						"y": 3,
+						"w": 217,
+						"h": 266
+					}
+				},
+				{
+					"filename": "calendar",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 100,
+						"h": 122
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 100,
+						"h": 122
+					},
+					"frame": {
+						"x": 301,
+						"y": 275,
+						"w": 100,
+						"h": 122
+					}
+				},
+				{
+					"filename": "bbl",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 310,
+						"h": 86
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 310,
+						"h": 86
+					},
+					"frame": {
+						"x": 407,
+						"y": 275,
+						"w": 310,
+						"h": 86
+					}
+				},
+				{
+					"filename": "cvetki",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 54,
+						"h": 54
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 54,
+						"h": 54
+					},
+					"frame": {
+						"x": 407,
+						"y": 367,
+						"w": 54,
+						"h": 54
+					}
+				},
+				{
+					"filename": "ramka",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 54,
+						"h": 40
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 54,
+						"h": 40
+					},
+					"frame": {
+						"x": 467,
+						"y": 367,
+						"w": 54,
+						"h": 40
+					}
+				},
+				{
+					"filename": "karta",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 57,
+						"h": 35
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 57,
+						"h": 35
+					},
+					"frame": {
+						"x": 527,
+						"y": 367,
+						"w": 57,
+						"h": 35
+					}
+				},
+				{
+					"filename": "stakany",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 76,
+						"h": 28
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 76,
+						"h": 28
+					},
+					"frame": {
+						"x": 590,
+						"y": 367,
+						"w": 76,
+						"h": 28
+					}
+				},
+				{
+					"filename": "meshok",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 128,
+						"h": 180
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 128,
+						"h": 180
+					},
+					"frame": {
+						"x": 524,
+						"y": 3,
+						"w": 128,
+						"h": 180
+					}
+				},
+				{
+					"filename": "lampy",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 508,
+						"h": 74
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 508,
+						"h": 74
+					},
+					"frame": {
+						"x": 524,
+						"y": 189,
+						"w": 508,
+						"h": 74
+					}
+				},
+				{
+					"filename": "roga",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 120,
+						"h": 176
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 120,
+						"h": 176
+					},
+					"frame": {
+						"x": 658,
+						"y": 3,
+						"w": 120,
+						"h": 176
+					}
+				},
+				{
+					"filename": "musorka",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 44,
+						"h": 66
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 44,
+						"h": 66
+					},
+					"frame": {
+						"x": 723,
+						"y": 269,
+						"w": 44,
+						"h": 66
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "http://free-tex-packer.com",
+		"version": "0.6.3"
+	}
+}

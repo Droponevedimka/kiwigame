@@ -1,0 +1,545 @@
+@import "utils/libs";
+@import "utils/vars";
+@import "utils/mixins";
+@import "utils/fonts";
+@import "utils/reset";
+
+html{
+			
+}
+body {			
+    background-color: #000000;
+    margin: 0;
+    padding: 0;
+    // overflow-y: hidden;			
+}	
+.myText{
+    background: transparent;
+    padding-left: 25px;
+    color: #ffffff;
+    border-right: 0;;
+    font-family: Minecraft;
+    font-size: 25px;
+    display: none;
+    z-index: 5;
+    
+}
+.myName{
+    background: transparent;
+    padding-left: 0px;
+    color: #ffffff;
+    border-right: 0;
+    border-top: 0;
+    border-left: 0;
+    font-family: Minecraft;
+    font-size: 35px;
+    display: none;
+    z-index: 5;
+}
+#pause-game{
+    display: none;
+}		
+.pause-game{
+    position: absolute;
+    top: 0;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100%;
+    background-color: #000;
+    z-index:7;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;			
+}	
+.block-rotate{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img-rout-vertical{
+    display: block;
+    width: 70%;
+    max-width: 500px;
+    margin:auto;
+}
+
+#game-container{
+    z-index: 4;
+}
+
+#custom-scroll{
+   
+}
+
+.custom-sroll-game{
+    position: absolute;
+    bottom: 10%;
+    right: 1%;
+    height: 10%;
+}
+
+.final-container{
+    top: 0;
+    position: absolute;
+    width: 100%;
+    height: auto;
+    min-height: 100vh;
+    background: #000;
+    z-index: 10;
+    font-family: Minecraft;
+    color: #ffffff;
+    display: none;
+    justify-content: center;
+    @media screen and (max-width: 800px) {   
+        font-size: 13px;
+    }
+    @media screen and (max-width: 700px) {   
+        font-size: 11px;
+    }
+    @media screen and (max-width: 550px) {   
+        font-size: 9px;
+    }
+    &__main{
+        max-width: 900px;
+        width: 90%;
+        margin: 0 5%;
+    }
+
+    &__top-img{
+        object-fit: cover;
+        height: 9%;
+        object-position: left center;
+        
+    }
+
+    &__title{
+        margin: 5% 0;
+        font-size: 4.75em;
+        @media screen and (max-width: 450px) {   
+            font-size: 13vw;
+        }
+    }
+
+    &__description{
+        margin-bottom: 5%;    
+        font-size: 1em;  
+        line-height: 1.7em; 
+        @media screen and (max-width: 450px) {   
+            font-size: 3.5vw;
+        } 
+    }
+    &__gold{
+        color: #ff8c00;
+    }
+    
+    &__items{
+        display: flex;
+        flex-direction: row;
+        @media screen and (max-width: 450px) {   
+            flex-direction: column;
+        }
+        &__item{            
+            &-left{
+                width: 70%;   
+                @media screen and (max-width: 450px) {   
+                    width: 100%;
+                }             
+                &-title{
+                    font-size: 1.1em;
+                    line-height: 1.6em;
+                    max-width: 600px;
+                    @media screen and (max-width: 450px) {   
+                        font-size: 4vw;
+                        line-height: 5vw;
+                    }
+                }
+                &-double{
+                    display: flex;
+                    flex-direction: row;
+                    margin: 7% 0;
+                    font-size: 1.5em;
+                    line-height: 1.5em;
+                    @media screen and (max-width: 450px) {   
+                        flex-direction: column;
+                        font-size: 7vw;
+                        line-height: 9vw;
+                    }
+                    &-img{
+                        width: 30%;
+                        margin-bottom: 10%;
+                    }
+                    &-left{
+                        display: flex;
+                        flex-direction: column;
+                        align-items: flex-start;                     
+                    }
+                    &-text{                       
+                       
+                    }
+                    &-desc{
+                        font-size: 0.65em;
+                        line-height: 1.2em;
+                        color:#313131;
+                        @media screen and (max-width: 450px) {   
+                            font-size: 4vw;
+                            line-height: 6vw;
+                            margin-bottom: 3%;
+                        }
+                    }
+                    &-right{                        
+                        display: flex;
+                        flex-direction: column;
+                        align-items: flex-start;                         
+                    }
+                }
+                &-block{
+                    margin-top: 4%;
+                    max-width: 350px;
+                    font-size: 1em;
+                    @media screen and (max-width: 450px) {   
+                        max-width: 700px;
+                        font-size: 4vw;
+                    }
+                    &-contain{
+                        
+                    }
+                    &-text{
+                        margin-bottom: 2%;  
+                        line-height: 1.6em;                                            
+                    }
+                    &-input{
+                        width: 48%;
+                        margin: 0;
+                        float: left;
+                        font-size: 1em;
+                        padding-left: 2%;
+                        border-left: 2px solid #fff;
+                        border-top: 2px solid #fff;
+                        border-bottom: 2px solid #fff;
+                        border-top-left-radius: 8px;
+                        border-bottom-left-radius: 8px;
+                        font-family: Minecraft;
+                        background-color: #000;
+                        color: #313131;                        
+                        height: 35px;   
+                        @media screen and (max-width: 450px) {   
+                            height: 8vw;
+                            width: 52%;
+                            font-size: 4.5vw;
+                            padding-left: 2%;                           
+                        }                    
+                    }   
+                    &-btn{
+                        margin: 0;
+                        padding: 0;
+                        display: inline-flex;
+                        justify-content: center;
+                        align-items: center;
+                        width: calc(40%-2px);
+                        height: 35px;
+                        color: #733c00;
+                        background-color: #ff8c00; 
+                        border-top-right-radius: 8px; 
+                        border-bottom-right-radius: 8px;    
+                        cursor: pointer;  
+                        font-family: Minecraft;
+                        @media screen and (max-width: 450px) {   
+                            height: 8vw;
+                            width: 48%;
+                            font-size: 3vw;
+                        }                                         
+                    }   
+                    &-btn-two{
+                        border-radius: 8px;
+                        margin-top: 1%;
+                    }
+                    &-desk{
+                        color: #313131;
+                    }              
+                }
+                &-block-two{
+                    max-width: 450px;
+                }
+
+            }
+            &-right{
+                width: 30%;   
+                @media screen and (max-width: 450px) {   
+                    order: -1;
+                    text-align: center;    
+                    width: 100%;    
+                    display: flex;
+                    transform: scale(-1, 1);
+                    justify-content: flex-end;           
+                }
+                &__radio{
+                    width: 100%;
+                    object-fit: contain;
+                    @media screen and (max-width: 450px) {   
+                        width: 60vw;
+                        max-width: 450px;   
+                        margin-bottom: 5%;               
+                    }                    
+                }
+            }
+        }
+        &__social-contain{
+            height: 5%;
+            display: flex;
+            flex-direction: row;
+            align-items: center;            
+            justify-content: space-between;   
+            @media screen and (max-width: 450px) {   
+               height: auto;               
+            }         
+            &-text{
+                color: #313131;
+                @media screen and (max-width: 450px) { 
+                    width: 85%;  
+                    font-size: 4.5vw;  
+                    line-height: 6vw;            
+                }  
+            }
+            &-link{
+                color: #313131;
+                text-decoration: underline;
+            }
+            &-btns{       
+                display: flex;                     
+                @media screen and (max-width: 450px) {   
+                    flex-direction: column;              
+                }  
+                &__link{       
+                    margin-left: 15px;                               
+                    
+                    @media screen and (max-width: 450px) {
+                        width: 10vw;   
+                        margin: 1.5vh 2vw;              
+                    }  
+                }
+                &__img{
+                        width: 100%;
+                }
+            }
+        }
+        &__footer{
+            padding-top: 7%;
+            border-top: 2px solid #313131;
+            display: flex;
+            flex-direction: row;
+            @media screen and (max-width: 450px) {   
+                flex-direction: column;              
+            } 
+           &-main{
+               display: flex;
+               flex-direction: row;
+               justify-content: space-between;  
+               @media screen and (max-width: 450px) {   
+                flex-direction: column;              
+                }               
+                &-left{
+                    width: 60%;
+                    line-height: 1.5em;
+                    @media screen and (max-width: 450px) {   
+                        width: 100%; 
+                        font-size: 4vw;  
+                        line-height: 6vw;       
+                    } 
+                    &__logo{
+                        display: none;
+                        @media screen and (max-width: 450px) {   
+                            display: block;  
+                            width: 70%;     
+                            margin-bottom: 8%;
+                        } 
+                    }
+                    &__title{                        
+                         
+                    }
+                    &__ul{
+                        margin: 3% 0 0 0;
+                        @media screen and (max-width: 450px) {  
+                        margin: 4vh 0;
+                        }
+                    }
+                    &__li{
+                        margin: 2% 0;
+                        color: #888888;
+                        @media screen and (max-width: 450px) {  
+                        margin: 1vh 0;                        
+                        }
+                    }
+                    &__btn{
+                        margin: 5% 0 0 0;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        padding: 0;
+                        width: 35%;
+                        height: 35px;
+                        color: #733c00;
+                        background-color: #ff8c00; 
+                        border-radius: 8px;    
+                        cursor: pointer;  
+                        font-family: Minecraft;
+                        @media screen and (max-width: 450px) {   
+                            height: 8vw;
+                            width: 40%;
+                            margin: 5% 0;
+                            font-size: 3vw;
+                        }                                         
+                    }   
+                    &__img{
+    
+                    }
+                }
+                &-right{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: flex-end;
+                    justify-content: space-between;  
+                    width: 50%;
+                    @media screen and (max-width: 450px) {   
+                        flex-direction: row;   
+                        align-items: center;
+                        justify-content: flex-start;
+                        width: 100%;           
+                    }  
+                    &__logo{
+                        @media screen and (max-width: 450px) {   
+                            width: 30vw;     
+                            display: none;      
+                        }  
+                    }
+                    &__logo-mob{
+                        display: none;
+                        @media screen and (max-width: 450px) {   
+                            width: 25vw;     
+                            display: block;      
+                        }  
+                    }
+                    &__pay{
+                        @media screen and (max-width: 450px) {   
+                           width: 50vw; 
+                           margin-left: 10vw;          
+                        }  
+                    }
+                }
+           } 
+           &-desk{
+            font-size: 0.75em;
+            line-height: 1.5em;
+            color: #313131;
+            margin: 5% 0;
+            @media screen and (max-width: 450px) {   
+                font-size: 4.1vw;   
+                line-height: 6vw;
+                        
+            } 
+            
+            &-link{
+                color: #ff0000;
+            }
+           }
+        }
+
+    }
+    
+}
+
+.final-modal{
+    display: none;
+    position: fixed;  
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;    
+    font-family: Minecraft;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba($color: #000000, $alpha: 0.6);
+    z-index: 12;
+
+    &__container{
+        width: 90%;
+        max-width: 500px;
+        height: 50%;
+        max-height: 200px;
+        // #ff8c00,
+        background: #ff8c00;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        padding: 0 2%;
+    }
+
+    &__close{
+        width: 4%;
+        cursor: pointer;
+    }
+
+    &__txt{
+        text-align: 2em;
+        line-height: 2em;
+    }
+
+    &__next{
+        height: 20%;
+        font-size: 1.2em;
+        width: fit-content;
+        display: flex;
+        cursor: pointer;
+        align-items: center;
+        justify-content: center;
+        padding: 0 5%;
+        border-radius: 10px;
+        background-color: #fff;
+        color: #733c00;
+    }
+}
+
+.ssb_down {
+    background-color: #33ccaa;
+    bottom:0;
+    cursor:pointer;
+    position:absolute;
+    right:0;
+    border-radius: 10px;
+  }
+  
+  .ssb_sb {
+    background-color: #22aabb;
+    cursor:pointer;
+    position:absolute;
+    right:0;
+    border-radius: 10px;
+  }
+  
+  .ssb_sb_down {
+    background-color: #1199aa;
+  }
+  
+  .ssb_sb_over {
+    background-color: #33bbcc;
+  }
+  
+  .ssb_st {
+    background-color: #dedede;
+    cursor:pointer;
+    height:100%;
+    position:absolute;
+    right:0;
+    top:0;
+    border-radius: 10px;
+  }
+  
+  .ssb_up {
+    background-color: #33ccaa;
+    cursor:pointer;
+    position:absolute;
+    right:0;
+    top:0;
+    border-radius: 10px;
+  }
+  

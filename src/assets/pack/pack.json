@@ -1,0 +1,268 @@
+{
+  "section1": {"files": [
+    {
+      "type": "sceneFile",
+      "key": "dialogScene",
+      "url": "assets/scenes/dialogScene.js"
+    },
+    {
+      "type": "sceneFile",
+      "key": "first",
+      "url": "assets/scenes/first.js"
+    },
+    {
+      "type": "sceneFile",
+      "key": "game",
+      "url": "assets/scenes/game.js"
+    },
+    {
+      "type": "sceneFile",
+      "key": "toda2",
+      "url": "assets/scenes/toda2.js"
+    },
+    {
+      "type": "sceneFile",
+      "key": "textZad",
+      "url": "assets/scenes/textZad.js"
+    },
+    {
+      "type": "sceneFile",
+      "key": "program",
+      "url": "assets/scenes/program.js"
+    },
+    {
+      "type": "sceneFile",
+      "key": "street",
+      "url": "assets/scenes/street.js"
+    },
+    {
+      "type": "sceneFile",
+      "key": "anotation",
+      "url": "assets/scenes/anotation.js"
+    },
+    {
+      "type":"image",
+      "key":"barBack",
+      "url":"assets/sprites/barBack.png",
+      "normalMap": ""
+    },
+    {
+      "type":"image",
+      "key":"ulicaBack",
+      "url":"assets/sprites/ulica-bg.png",
+      "normalMap": ""
+    },
+    {
+      "type":"image",
+      "key":"q_money",
+      "url":"assets/sprites/q_money.png",
+      "normalMap": ""
+    },
+    {
+      "type":"image",
+      "key":"notebookBack",
+      "url":"assets/sprites/notebook.png",
+      "normalMap": ""
+    }, 
+    {
+      "type":"image",
+      "key":"kursDialog",
+      "url":"assets/img/curs_dialog.png",
+      "normalMap": ""
+    }, 
+    {
+      "type":"image",
+      "key":"playVideo",
+      "url":"assets/sprites/play.png",
+      "normalMap": ""
+    }, 
+      {
+      "type":"image",
+      "key":"back-first",
+      "url":"assets/sprites/back-first.png",
+      "normalMap": ""
+      },
+      {
+        "type":"image",
+        "key":"btn_hwr-first",
+        "url":"assets/sprites/btn_hwr.png",
+        "normalMap": ""
+      },
+      {
+        "type":"image",
+        "key":"s1",
+        "url":"assets/sprites/sneg/s1.png",
+        "normalMap": ""
+      },
+      {
+        "type":"image",
+        "key":"s2",
+        "url":"assets/sprites/sneg/s2.png",
+        "normalMap": ""
+      },
+      {
+        "type":"image",
+        "key":"s3",
+        "url":"assets/sprites/sneg/s3.png",
+        "normalMap": ""
+      },
+      {
+        "type":"image",
+        "key":"s4",
+        "url":"assets/sprites/sneg/s4.png",
+        "normalMap": ""
+      },
+      {
+        "type":"image",
+        "key":"s5",
+        "url":"assets/sprites/sneg/s5.png",
+        "normalMap": ""
+      },
+      {
+        "type":"image",
+        "key":"btn-first",
+        "url":"assets/sprites/btn.png",
+        "normalMap": ""
+      },
+      {
+        "type":"image",
+        "key":"turn",
+        "url":"assets/sprites/turn.png",
+        "normalMap": ""
+      },
+      {
+        "type":"image",
+        "key":"turn-street",
+        "url":"assets/sprites/turn-street.png",
+        "normalMap": ""
+      },
+      {
+        "type":"image",
+        "key":"dialog-back",
+        "url":"assets/sprites/dialog-back.png",
+        "normalMap": ""
+      },
+      {
+        "type":"image",
+        "key":"avtobus-1",
+        "url":"assets/sprites/avtobus-1.png",
+        "normalMap": ""
+      },
+      {
+        "type":"image",
+        "key":"avtobus-2",
+        "url":"assets/sprites/avtobus-2.png",
+        "normalMap": ""
+      },
+      {
+        "type":"image",
+        "key":"avtobus-3",
+        "url":"assets/sprites/avtobus-3.png",
+        "normalMap": ""
+      },
+      {
+        "type":"image",
+        "key":"skip",
+        "url":"assets/img/skip.png",
+        "normalMap": ""
+      },
+      {
+      "type": "multiatlas",
+      "key": "walking-ded",
+      "url": "assets/atlas/walking-ded.json",
+      "path": "assets/atlas"
+    },
+    {
+      "type": "multiatlas",
+      "key": "walking-ded-street",
+      "url": "assets/atlas/walking-ded-street.json",
+      "path": "assets/atlas"
+    },
+    {
+      "type": "multiatlas",
+      "key": "anim-object",
+      "url": "assets/atlas/anim-object.json",
+      "path": "assets/atlas"
+    },
+    {
+      "type": "multiatlas",
+      "key": "street-pack",
+      "url": "assets/atlas/ulica-pack.json",
+      "path": "assets/atlas"
+    },
+    {
+      "type": "multiatlas",
+      "key": "static-object",
+      "url": "assets/atlas/static-object.json",
+      "path": "assets/atlas"
+    },
+    {
+      "type": "multiatlas",
+      "key": "barmen",
+      "url": "assets/atlas/barmen.json",
+      "path": "assets/atlas"
+    },
+    {
+      "type": "multiatlas",
+      "key": "other-object",
+      "url": "assets/atlas/other-object.json",
+      "path": "assets/atlas"
+    },
+    {
+      "type": "multiatlas",
+      "key": "mishka",
+      "url": "assets/atlas/mishka.json",
+      "path": "assets/atlas"
+    },
+    {
+      "type": "multiatlas",
+      "key": "otshelnik",
+      "url": "assets/atlas/otshelnik.json",
+      "path": "assets/atlas"
+    },
+    {
+      "type": "multiatlas",
+      "key": "sborshik",
+      "url": "assets/atlas/sborshik.json",
+      "path": "assets/atlas"
+    },
+    {
+      "type": "multiatlas",
+      "key": "g_copy",
+      "url": "assets/atlas/g_copy.json",
+      "path": "assets/atlas"
+    },
+    {
+      "type": "multiatlas",
+      "key": "g-toda2",
+      "url": "assets/atlas/g_toda2.json",
+      "path": "assets/atlas"
+    },
+    {
+      "type": "multiatlas",
+      "key": "g_connect",
+      "url": "assets/atlas/g_connect.json",
+      "path": "assets/atlas"
+    },
+    {
+      "type": "multiatlas",
+      "key": "dialog-and-podsvet",
+      "url": "assets/atlas/dialog-and-podsvet.json",
+      "path": "assets/atlas"
+    },
+    {
+      "type": "audio",
+      "key": "bar_sound",
+      "url": "assets/audio/bar_sound.mp3"
+    },
+    {
+      "type": "audio",
+      "key": "sound-street",
+      "url": "assets/audio/sound-street.mp3"
+    }
+    
+  ]},
+  "meta": {
+    "version": "2"
+  }
+}

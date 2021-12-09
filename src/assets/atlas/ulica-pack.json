@@ -1,0 +1,124 @@
+{
+	"textures": [
+		{
+			"image": "ulica-pack.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 756,
+				"h": 1278
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "bar",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 556,
+						"h": 462
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 556,
+						"h": 462
+					},
+					"frame": {
+						"x": 3,
+						"y": 3,
+						"w": 556,
+						"h": 462
+					}
+				},
+				{
+					"filename": "ostanovka",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 630,
+						"h": 394
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 630,
+						"h": 394
+					},
+					"frame": {
+						"x": 3,
+						"y": 471,
+						"w": 630,
+						"h": 394
+					}
+				},
+				{
+					"filename": "dver-street",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 236,
+						"h": 266
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 236,
+						"h": 266
+					},
+					"frame": {
+						"x": 3,
+						"y": 871,
+						"w": 236,
+						"h": 266
+					}
+				},
+				{
+					"filename": "mashina1",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 468,
+						"h": 202
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 468,
+						"h": 202
+					},
+					"frame": {
+						"x": 245,
+						"y": 871,
+						"w": 468,
+						"h": 202
+					}
+				},
+				{
+					"filename": "mashina2",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 508,
+						"h": 196
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 508,
+						"h": 196
+					},
+					"frame": {
+						"x": 245,
+						"y": 1079,
+						"w": 508,
+						"h": 196
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "http://free-tex-packer.com",
+		"version": "0.6.3"
+	}
+}
